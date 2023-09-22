@@ -55,6 +55,7 @@ const handleSubmit = (evento) =>{
   }
 
   dispatch(action)
+  setDescripcion("")
 }
 const handleCambiar = (id) => {
   dispatch({
@@ -90,7 +91,7 @@ let terminadas = 0
               <div className="row row-cols-1 row-cols-md-2 g-4">
             <div>
               {state.map((tarea, index)=>{
-                  return<CardTarea key={index} handleCambiar={handleCambiar} handleEliminar={handleEliminar} tarea={tarea} index={tarea.id}/>
+                  return<CardTarea key={index} handleCambiar={handleCambiar} handleEliminar={handleEliminar} tarea={tarea} id={tarea.id} index={index}/>
                 })
               }
             </div>
