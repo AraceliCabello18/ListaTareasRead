@@ -8,7 +8,7 @@ export const Fooder = (porcentaje) =>{
                 aria-valuemin="0" 
                 aria-valuemax="100"
             >
-            {Math.floot(porcentaje * 100)}%
+            {Math.floor(porcentaje * 100)}%
             </div>
         </div>
     )
