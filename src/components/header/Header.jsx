@@ -4,7 +4,7 @@ export const Header = () =>{
             <div className="row pt-4">
                 <div className="col text-center">
                     <h1>Lista de Tareas</h1> 
-                    <p>Esta Aplicacion te va a Ayudar allevar un control para tus tareas</p>
+                    <p>Esta Aplicacion te va a Ayudar a llevar un control para tus tareas</p>
                 </div>
                 
             </div>

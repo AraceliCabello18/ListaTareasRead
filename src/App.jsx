@@ -1,5 +1,5 @@
 import { Header } from "./components/header/Header";
-import {Fooder} from "./Fooder/Fooder";
+import {Fooder} from "./components/Fooder/Fooder";
 import { FormularioTareas } from "./components/FormularioTareas/FormularioTareas";
 import { CardTarea } from "./components/CardTarea/CardTarea";
 import { useEffect, useReducer, useState } from "react";
@@ -8,23 +8,6 @@ import { tareaReducer } from "./reducers/tareaReducer";
 export const App = () => {
   const init=()=>{
     return JSON.parse(localStorage.getItem("tarea")) || []
-    /**return[
-        {
-            id:1,
-            descripcion: "Estudiar Reducers",
-            finalizado: false
-        },
-        {
-            id:2,
-            descripcion: "Estudiar POO",
-            finalizado: false
-        },
-        {
-            id:3,
-            descripcion: "Estudiar React",
-            finalizado: false
-        }
-    ]**/
 }
 
 const [state,dispatch] = useReducer(tareaReducer, [], init);
