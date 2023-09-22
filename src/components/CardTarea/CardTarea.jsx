@@ -7,8 +7,8 @@ export const CardTarea = ({tarea, id, handleCambiar, handleEliminar, index}) => 
                     <p className="card-text">{tarea.descripcion}</p>
                     <hr/>
                     <div className="d-grid gap-2">
-                        <button onClick={() => handleEliminar(index)} className="btn btn-danger">Borrar</button> 
-                        <button onClick={() => handleCambiar(index)} className="btn btn-info">{tarea.realizado ? "Marcar como Inconclusa" : "Marcar como terminada"}</button>
+                        <button onClick={() => handleEliminar(id)} className="btn btn-danger">Borrar</button> 
+                        <button onClick={() => handleCambiar(id)} className="btn btn-info">{tarea.realizado ? "Marcar como Inconclusa" : "Marcar como terminada"}</button>
                     </div>
                 </div>
             </div>
