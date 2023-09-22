@@ -12,7 +12,7 @@ export const FormularioTareas = ({descripcion, handleInputChange, handleSubmit})
                 <div id="descripcionText" className="form-text">Agregar la Descripcion</div>
                 </div>
                 <div className="d-grid">
-                    <button type="submit" className="btn btn-primary">Agregar</button>
+                    <button type="submit" className="btn btn-success container-fluid">Agregar</button>
                 </div>
         </form>
         </>
