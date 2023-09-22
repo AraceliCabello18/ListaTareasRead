@@ -3,7 +3,7 @@ export const CardTarea = ({tarea, id, handleCambiar, handleEliminar, index}) => 
         <div className="col">
             <div className={tarea.realizado ? "card bg-success" : "card bg-light"} style={{width: "18rem"}}>
                 <div className="card-body">
-                    <h5 className="card-title">Tarea {index}</h5>
+                    <h5 className="card-title">Tarea {index + 1}</h5>
                     <p className="card-text">{tarea.descripcion}</p>
                     <hr/>
                     <div className="d-grid gap-2">
