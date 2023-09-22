@@ -1,4 +1,4 @@
-export const CardTarea = ({tarea,id,handleCambiar,handleEliminar,index}) => {
+export const CardTarea = ({tarea, id, handleCambiar, handleEliminar, index}) => {
     return(
         <div className="col">
             <div className={tarea.realizado ? "card bg-success" : "card bg-light"} style={{width: "18rem"}}>

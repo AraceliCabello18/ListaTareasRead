@@ -1,6 +1,6 @@
 export const Header = () =>{
     return(
-        <div className="container-fluid bg-secondary bg-gradient shadow-lg text-light mb-4">
+        <div className="container-fluid bg-secondary text-light bg-gradient shadow-lg mb-5">
             <div className="row pt-4">
                 <div className="col text-center">
                     <h1>Lista de Tareas</h1> 

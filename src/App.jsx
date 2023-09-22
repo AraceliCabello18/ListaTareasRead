@@ -67,10 +67,10 @@ let terminadas = 0
         <Header/>
         <div className="container">
           <div className="row">
-            <div className="col-4">
+            <div className="col-sm-4 md-4 lg-6">
               <FormularioTareas descripcion={descripcion} handleInputChange={handleInputChange} handleSubmit={handleSubmit}/>
             </div>
-            <div className="col-8">
+            <div className="col-sm-8">
               <div className="row row-cols-1 row-cols-md-2 g-4">
             <div>
               {state.map((tarea, index)=>{
